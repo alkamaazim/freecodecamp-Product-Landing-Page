@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background: #EEEEEE;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* UTILITY CLASSES */
+#container{
+    max-width: 960px;
+    margin: 2rem auto 0;
+}
+
+.logo{
+    width: 300px;
+}
+
+.btn{
+    display: inline-block;
+    padding: .4rem 1.5rem;
+    background-color: #F1C40F;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222;
+}
+
+/* HEADER NAVBAR */
+#main-header{
+    background-color: #EEEEEE;
+    color: #333;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 2rem;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    padding: 1rem 2rem;
+}
+
+#navbar ul li a{
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.message-box{
+    margin: 4rem;
+    padding: .8rem;
+    text-align: center;
+}
+
+.message-box h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 648;
+}
+
+.message-box input{
+    display: block;
+    padding: .4rem;
+    margin: auto;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+#features{
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#features .features{
+    display: inline-flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#features .features i{
+    color: #FF8C00;
+    font-size: 4rem;
+}
+
+#features .features div{
+    padding: 2rem;
+    margin-left: 4rem;
+}
+
+#features .features div h2{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+#how-it-works{
+    padding: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+#pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem .2rem;
+}
+
+.pricing-box{
+    border: solid #333 1px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.pricing-box:first-child{
+    margin-right: 1.2rem;
+}
+
+.pricing-box:last-child{
+    margin-left: 1.2rem;
+}
+
+.pricing-box h3{
+    background-color: #ddd;
+    font-size: 1.05rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.pricing-box h2{
+    padding: 1rem;
+}
+
+.pricing-box p{
+    padding: 0 4rem 1rem;
+}
+
+.pricing-box .btn{
+    display: inline-block;
+    margin: 1rem;
+}
+
+/* FOOTER */
+#main-footer{
+    background-color: #ccc;
+    padding: 1rem 5rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-footer a{
+    color: #333;
+    /* padding: .5rem 1rem; */
+}
+
+#alkama{
+    text-decoration: underline;
+    padding: 0rem 0rem;
+    margin: 0rem;
+}
